@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Random <br>Password <span>Generator</span> </h1>
+            <div class="main">
+                <div class="inner">
+                    <input placeholder="Password" class="pass">
+                    <img src="copy.png">
+                </div>
+                <button>Generate</button>
+            </div>
+            <br>
+            <div class="choices">
+                <label>Password Length<input class="length"type="text"></label>
+                <br>
+                <input type="checkbox" class="v" id="v1"value="IncludeUpperCase"><label for="v1">Include UpperCase</label>
+                <input type="checkbox" class="v" id="v2"value="IncludeLowerCase"><label for="v2">Include LowerCase</label>
+                <br>
+                <input type="checkbox" id="v3"value="Includenumbers"><label for="v3">Include Numbers</label>
+                <input type="checkbox" class="v4" id="v4"value="Includesymbols"><label for="v4">Include Symbols</label>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+
+</html>
